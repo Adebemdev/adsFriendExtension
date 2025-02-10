@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AdsFriend Chrome Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension that intercepts and replace an elements on web page with a customize and positive contents",
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "options_page": "options.html"
+}
